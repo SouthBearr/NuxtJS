@@ -3,16 +3,13 @@
 </script>
 
 <template>
-  <div>
-    <TheHeader />
+  <div class="container">
     <NuxtPage />
-    <TheFooter />
   </div>
 </template>
 
-<style>
-* {
-  margin: 0;
-  padding: 0;
+<style lang='scss'>
+.container{
+  
 }
 </style>
